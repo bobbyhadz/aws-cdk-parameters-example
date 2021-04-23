@@ -1,4 +1,4 @@
-# Article name here
+# How to use Parameters in AWS CDK - Complete Guide
 
 A repository for an article on
 [bobbyhadz.com](https://bobbyhadz.com/blog/aws-cdk-parameters-example)
