@@ -16,7 +16,7 @@ npm install
 3. Create the CDK stack
 
 ```bash
-npx cdk deploy my-cdk-stack \
+npx aws-cdk deploy my-cdk-stack \
   --parameters databasePort=1000 \
   --parameters tableName=cool-table \
   --parameters favoriteRegions="us-east-1,us-east-2,us-east-3"
@@ -28,5 +28,5 @@ npx cdk deploy my-cdk-stack \
 5. Cleanup
 
 ```bash
-npx cdk destroy
+npx aws-cdk destroy
 ```
