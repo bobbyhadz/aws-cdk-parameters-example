@@ -40,7 +40,7 @@ export class CdkStarterStack extends cdk.Stack {
         databasePort: databasePort.valueAsString,
         tableName: tableName.valueAsString,
       },
-      runtime: lambda.Runtime.NODEJS_16_X,
+      runtime: lambda.Runtime.NODEJS_18_X,
       handler: 'main',
       entry: path.join(__dirname, `/../src/my-function/index.js`),
     });
